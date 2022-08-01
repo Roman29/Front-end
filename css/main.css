@@ -9,6 +9,10 @@ html body {
   overflow-x: hidden;
 }
 
+li {
+  list-style-type: none;
+ }
+
 .header_top {
   align-items: center;
 }
@@ -94,6 +98,11 @@ hr {
 .header_bot {
   align-items: center;
 }
+
+.bot_menu {
+  display: inline-flex;
+}
+
 .menu {
 
   color: #000;
@@ -105,7 +114,6 @@ hr {
   margin-right: 19px;
   margin-left: 12px;
   margin-bottom: 26px;
-
 }
 .banner{
   background-color:  #F7F8F9;
@@ -351,6 +359,7 @@ hr {
 }
 
 .title_name{
+  display: block;
   margin-top: 20px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -457,6 +466,7 @@ hr {
 }
 
 .label {
+  box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #C9C9C9;
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.06);
@@ -822,6 +832,11 @@ hr {
 
 }
 
+
+.navigation {
+  margin-top: 60px;
+}
+
 .list {
   margin-top: 6px;
   font-family: 'Gilroy';
@@ -845,7 +860,7 @@ hr {
 }
 
 .link {
-  margin-top: 168px;
+  margin-top: 77px;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 500;
