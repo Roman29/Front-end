@@ -62,7 +62,8 @@ li {
   border-radius: 6px;
 }
 
-.btn {
+.btm {
+  box-sizing: border-box;
   box-shadow: none;
   border-radius: 6px;
   color: #000;
@@ -73,6 +74,7 @@ li {
   font-family: 'Gilroy Semibold';
   text-decoration: none;
   text-transform: uppercase;
+  weight: 202px;
 }
 
 .btn:focus {
