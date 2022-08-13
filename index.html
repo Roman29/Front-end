@@ -21,15 +21,14 @@
     <div class="container-fluid home">
       <div class="container header">
         <div class="header_top row " >
-          <div class="col-6 ">
-            <div class="btn home">
-              <button class="btn"><a href="#" class="logo">
-                <img src="img/Logo.png" alt="logo"></a>
-              </button>
-            </div>
-            <div class="btn phone">
-              <div class="btn dropdown">
-                <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/phone.png" alt="phone">+38(0342)71-28-00</button>
+          <div class="col-6">
+            <div class="row">
+              <div class="home col">
+                <a href="#" class="logo"><img src="img/Logo.png" alt="logo"></a>
+              </div>
+              <div class=" phone col">
+              <div class=" dropdown">
+                <button class="btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/phone.png" alt="phone">+38(0342)71-28-00</button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">+38(068)373-28-48</a></li>
                     <li><a class="dropdown-item" href="#">+38(099)235-80-90</a></li>
@@ -38,15 +37,13 @@
                 </div>
 
             </div>
-
+            </div>
           </div>
           <div class="col-6 d-none d-xxl-block">
-            <div class="btn buttom_login">
-              <a href="#"  class="btn login"><img src="img/user.png"> особистий кабінет</a>
+            <div>
+              <a href="#"  class="btn buttom_login"><img src="img/user.png"> особистий кабінет</a>
+              <a href="#"  class="btn buttom_zapys"> записатись на прийом</a>
             </div>
-            <div class="btn buttom_zapys">
-            <a href="#"  class="btn"> записатись на прийом</a>
-          </div>
           </div>
 
         </div>
@@ -89,13 +86,9 @@
         <div class="banner_left col">
           <h1 class="title">З турботою про майбутнє</h1>
           <p class="txt_title">Клініка репрoдуктивної медицини у Івано-Франківську, яка працює тільки за найсучаснішим обладненням та використовує тільки новітні підходи до лікування пацієнтів</p>
-          <div class="btn btn_banner">
-            <div class="btn buttom_zapys">
-              <a href="#"  class="btn  "> записатись на прийом</a>
-            </div>
-            <div class=" btn btn_price">
-              <a href="#"  class="btn "> дізнатися ціни</a>
-            </div>
+          <div>
+              <a href="#"  class="btn buttom_zapys "> записатись на прийом</a>
+              <a href="#"  class="btn btn_price"> дізнатися ціни</a>
           </div>
         </div>
         <div class="banner_right col">
@@ -115,7 +108,7 @@
         <div class="owl-carousel">
           <div class="block">
             <a href="#"><img class="online_cons" src="img/online_consultation.png"></a>
-            <div class="btn btn_to">
+            <div class=" btn_to">
               <a href="#"><span class="to">До 19.01.22</span></a>
             </div>
             <div class="blocktext">
@@ -130,7 +123,7 @@
           </div>
           <div class="block">
             <a href="#"><img  src="img/diagnostic.png" class="carouselimg"></a>
-            <div class="btn btn_to">
+            <div class=" btn_to">
               <a href="#"><span class="to">До 19.01.22</span></a>
             </div>
             <div class="blocktext">
@@ -145,7 +138,7 @@
           </div>
           <div class="block">
             <a href="#"><img class="online_cons" src="img/eko.png"></a>
-            <div class="btn btn_to">
+            <div class="btn_to">
               <a href="#"><span class="to">До 19.01.22</span></a>
             </div>
             <div class="blocktext">
@@ -240,19 +233,19 @@
                 <label class="title_name">Напрямок</label>
                 <input class="small_label" name="user_option" type="text" placeholder="Вагітність" required>
               </div>
-              <div class="sm_right col">
-                <p class="title_name">Спеціаліст</p>
-                <label class="small_label"><input name="user_specialist" type="text" placeholder="Спеціаліст" required></label>
+              <div class="sm_left col">
+                <label class="title_name">Спеціаліст</label>
+                <input class="small_label" name="user_specialist" type="text" placeholder="Спеціаліст" required>
               </div>
             </div>
             <div class="labels row">
               <div class="sm_left col">
-                <p class="title_name">Дата прийому</p>
-                <label class="small_label"><input name="user_date" type="text" placeholder="01 Oct, Пн" required></label>
+                <label class="title_name">Дата прийому</label>
+                <input class="small_label" name="user_date" type="text" placeholder="01 Oct, Пн" required>
               </div>
-              <div class="sm_right col">
-                <p class="title_name">Оберіть час</p>
-                <label class="small_label"><input name="user_time" type="text" placeholder="12:00 - 13:00" required></label>
+              <div class="sm_left col">
+                <label class="title_name">Оберіть час</label>
+                <input class="small_label" name="user_time" type="text" placeholder="12:00 - 13:00" required>
               </div>
             </div>
             <a href="#" class="btn btn_zapys">Записатись на прийом</a>
