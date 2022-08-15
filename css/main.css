@@ -892,3 +892,21 @@ hr {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 576px){
+  .bot_menu{
+    position: relative;
+  }
+  .socials_bot{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .socials_bot{
+    position: absolute;
+    right: 47px;
+  }
+}
