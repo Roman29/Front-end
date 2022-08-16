@@ -2,8 +2,12 @@
 $(document).ready(function(){
 
   $(".owl-carousel").owlCarousel({
-    dots: true,
+    // dots: true,
     responsive:{
+      0:{
+        items: 1,
+        margin: 20,
+      },
       576:{
         items: 1,
         margin: 20,
