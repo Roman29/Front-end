@@ -23,9 +23,7 @@ li {
 
 }
 
-. {
-  background: #FFFFFF;
-}
+
 
 .dropbtn{
   color: #F7F8F9;
@@ -33,6 +31,10 @@ li {
   cursor: pointer;
   background: #FFFFFF;
   align-items: center;
+}
+
+.phone {
+  margin-top: 1.5%;
 }
 
 
