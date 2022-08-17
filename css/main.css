@@ -124,11 +124,19 @@ hr {
 
 .banner_image {
   background-image: url('../img/banner.png');
-  background-size: cover;
-
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:100%;
 }
 
-
+@media screen and (max-width: 768px){
+  .banner_image {
+    background-image: url('../img/banner_sm.png');
+    background-repeat:no-repeat;
+  }
+}
 .title  {
 
   left: 83px;
