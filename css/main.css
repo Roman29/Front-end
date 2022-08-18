@@ -202,8 +202,8 @@ hr {
 .play {
   position: absolute;
   padding-top: 3%;
-  width: 168px;
-  height: 168px;
+  /*width: 168px;*/
+  /*height: 168px;*/
   left: 943px;
   top: 331px;
 }
@@ -414,8 +414,7 @@ hr {
 
   background: #70C2BA;
   border-radius: 6px;
-  margin-left: 78px;
-  margin-top: 58px;
+  margin: 10% 10% 10%;
 
 }
 
@@ -496,8 +495,8 @@ hr {
   padding: 10px 50px;
   margin: 0px auto;
   box-sizing: border-box;
-  margin-top: 133px;
-  margin-bottom: 62px;
+  margin-top: 15%;
+  margin-bottom: 15%;
   background: #FCA452;
   border-radius: 6px;
 }
@@ -883,6 +882,10 @@ hr {
   margin-top: 80px;
 }
 
+.form-check{
+  padding-top: 15%;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 1200px){
   .logo{
     width: 100%;
@@ -917,14 +920,12 @@ hr {
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1200px){
+@media only screen and (min-width: 576px) and (max-width: 1200px){
   .btn_price{
     width: 100%;
     text-align: center;
   }
   .play {
-    position: center;
-    width: 100%;
-    text-align: center;
+    margin: 25% auto;
   }
 }
