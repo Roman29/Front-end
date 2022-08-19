@@ -1,5 +1,14 @@
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 0px) and  (max-width: 575px){
+  .play {
+    top: 20%;
+    left: 25%;
+    margin: 25% auto;
+  }
+}
+@media (min-width: 576px) and  (max-width: 767px){
+
+}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  }

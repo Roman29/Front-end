@@ -116,6 +116,8 @@ hr {
   /*margin-bottom: 26px;*/
 
 }
+
+
 .banner{
   background-color:  #F7F8F9;
   /*margin-right: 80px;*/
@@ -135,6 +137,10 @@ hr {
   .banner_image {
     background-image: url('../img/banner_sm.png');
     background-repeat:no-repeat;
+    background-size:100%;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
   }
 }
 .title  {
@@ -142,7 +148,7 @@ hr {
   left: 83px;
   top: 249px;
   /*margin-top: 247px;*/
-  padding-top: 102px;
+  padding-top: 40%;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
@@ -158,12 +164,13 @@ hr {
 
   left: 83px;
   top: 413px;
-  margin-top: 120px;
+  /*margin-top: 120px;*/
   /*margin-left: 83px;*/
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  /*font-size: calc(40px + 32 * (100vw /1200));*/
   line-height: 22px;
   color: #000000;
 }
@@ -227,9 +234,7 @@ hr {
   padding-right: 31px;
   padding-top: 36px;
   padding-bottom: 102px;
-  width: 350px;
-  height: 547px;
-  left: 80px;
+
   top: 863px;
 
   background: #FFFFFF;
@@ -428,9 +433,22 @@ hr {
   color: #FFFFFF;
 
 }
+input:focus{
+  box-shadow: none !important;
+}
+
+/*input::-moz-placeholder, input:-moz-placeholder, input:-ms-input-placeholder{*/
+/*  color: #c3c3c3 !important;*/
+/*  opacity: .2 !important;*/
+/*}*/
+
+input::placeholder {
+  color: #c3c3c3!important;
+  opacity: .4!important;
+}
 .small_label {
   background: #FFFFFF;
-  border: 0px solid #C9C9C9;
+  /*border: 0px solid #C9C9C9;*/
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.06);
   border-radius: 6px;
 }
@@ -473,9 +491,9 @@ hr {
 }
 
 .label {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   background: #FFFFFF;
-  border: 1px solid #C9C9C9;
+  /*border: 1px solid #C9C9C9;*/
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.06);
   border-radius: 6px;
 }
@@ -886,7 +904,7 @@ hr {
   padding-top: 15%;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1200px){
+@media only screen and (min-width: 300px) and (max-width: 992px){
   .logo{
     width: 100%;
     position: center;
@@ -895,6 +913,7 @@ hr {
   .buttom_login{
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
   }
   .buttom_zapys{
     width: 100%;
@@ -920,12 +939,11 @@ hr {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 1200px){
+@media only screen and (min-width: 0px) and (max-width: 576px){
   .btn_price{
     width: 100%;
     text-align: center;
+    margin-top: 5%;
   }
-  .play {
-    margin: 25% auto;
-  }
+
 }
