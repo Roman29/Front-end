@@ -170,8 +170,9 @@ hr {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-right: 15%;
   /*font-size: calc(40px + 32 * (100vw /1200));*/
-  line-height: 22px;
+  /*line-height: 22px;*/
   color: #000000;
 }
 .btn_banner {
@@ -216,7 +217,7 @@ hr {
 }
 .block_title {
 
-  text-align: center;
+  text-align: center!important;
 
   margin-top: 93px;
   font-family: 'Gilroy';
@@ -944,6 +945,10 @@ input::placeholder {
     width: 100%;
     text-align: center;
     margin-top: 5%;
+    margin-right: 5%;
   }
-
+  .banner_left {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
