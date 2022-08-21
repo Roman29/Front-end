@@ -256,17 +256,15 @@ hr {
 }
 
 .to {
-  width:46px;
-  height: 23px;
   left: 124px;
   top: 1131px;
-
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 22px;
+  padding: 5px 10px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .headtext {
@@ -917,7 +915,7 @@ input::placeholder {
     margin-bottom: 5%;
   }
   .buttom_zapys{
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 }
@@ -942,13 +940,15 @@ input::placeholder {
 
 @media only screen and (min-width: 0px) and (max-width: 576px){
   .btn_price{
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin-top: 5%;
-    margin-right: 5%;
   }
   .banner_left {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .directions{
+    padding-left: 5%;
   }
 }
