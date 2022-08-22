@@ -143,6 +143,7 @@ hr {
     box-shadow: none !important;
   }
 }
+
 .title  {
 
   left: 83px;
@@ -461,8 +462,6 @@ input::placeholder {
 }
 
 .big_title_text {
-  width: 412px;
-  height: 100px;
   left: 80px;
   top: 3245px;
 
@@ -476,8 +475,6 @@ input::placeholder {
 }
 
 .text_info_sm{
-  width: 482px;
-  height: 90px;
   left: 80px;
   top: 3357px;
   font-family: 'Gilroy';
@@ -540,11 +537,7 @@ input::placeholder {
 
 }
 
-.left_info {
-  width: 200px;
-  margin-left: 80px;
 
-}
 
 .pluses_sm {
   background-image: url("../img/plus_sm.png");
@@ -585,8 +578,6 @@ input::placeholder {
 }
 
 .header_benefits {
-  width: 314px;
-  height: 100px;
   left: 134px;
   top: 3695px;
   margin-top: 50px;
@@ -601,8 +592,6 @@ input::placeholder {
 }
 
 .text_benefits {
-  width: 601px;
-  height: 45px;
   left: 134px;
   top: 3809px;
 
@@ -617,13 +606,8 @@ input::placeholder {
   margin-top: 14px;
 }
 
-.benefits_list{
-  margin-top: 44px;
-}
 
 .benefits_item {
-  width: 242px;
-  height: 27px;
   left: 196px;
   top: 3905px;
   font-family: 'Gilroy';
@@ -640,9 +624,8 @@ input::placeholder {
   margin-left: 58px;
   margin-bottom: 18px;
 }
-
-.right_list {
-  margin-left: -281px;
+.why_we{
+  margin-top: 5%;
 }
 
 .doctor{
@@ -918,6 +901,9 @@ input::placeholder {
     width: 90%;
     text-align: center;
   }
+  .btn_more{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px){
@@ -950,5 +936,11 @@ input::placeholder {
   }
   .directions{
     padding-left: 5%;
+  }
+  .big_title_left{
+    font-size: 37px;
+  }
+  .big_title_text{
+    font-size: 44px;
   }
 }
