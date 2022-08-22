@@ -133,16 +133,16 @@ hr {
   background-size:100%;
 }
 
-@media screen and (max-width: 768px){
-  .banner_image {
-    background-image: url('../img/banner_sm.png');
-    background-repeat:no-repeat;
-    background-size:100%;
-  }
-  .navbar-toggler:focus{
-    box-shadow: none !important;
-  }
-}
+/*@media screen and (max-width: 768px){*/
+/*  .banner_image {*/
+/*    background-image: url('../img/banner_sm.png');*/
+/*    background-repeat:no-repeat;*/
+/*    background-size:100%;*/
+/*  }*/
+/*  .navbar-toggler:focus{*/
+/*    box-shadow: none !important;*/
+/*  }*/
+/*}*/
 
 .title  {
 
@@ -188,8 +188,7 @@ hr {
 
 .btn_price {
   box-shadow: none;
-  width: 238px;
-  height: 50px;
+  margin: 0px auto;
   left: 330px;
   top: 511px;
   background: #F7F8F9;
@@ -197,7 +196,7 @@ hr {
   border-radius: 6px;
 }
 .banner_left {
-  margin-left: 83px;
+  margin-left: 7%;
 }
 .plus {
   padding-top: 3%;
@@ -628,9 +627,6 @@ input::placeholder {
   margin-top: 5%;
 }
 
-.doctor{
-  margin-right: 10px;
-}
 
 .doc_photo {
   margin-top: 32px;
@@ -638,8 +634,6 @@ input::placeholder {
 }
 
 .doc_name {
-  width: 293px;
-  height: 24px;
 
   font-family: 'Gilroy';
   font-style: normal;
@@ -653,8 +647,6 @@ input::placeholder {
 }
 
 .specialist {
-  width: 295px;
-  height: 20px;
 
   font-family: 'Gilroy';
   font-style: normal;
@@ -668,8 +660,7 @@ input::placeholder {
 }
 
 .experience {
-  width: 184px;
-  height: 22px;
+
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
@@ -689,7 +680,6 @@ input::placeholder {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /*width: 1402px;*/
-  height: 600px;
   /*top: 5119px;*/
   border-radius: 6px;
 }
@@ -718,16 +708,11 @@ input::placeholder {
   background-image: url("../img/note.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 364px;
-  height: 202px;;
 }
 
 .welcome {
   margin-left: 26px;
   margin-top: -20px;
-  width: 307px;
-  height: 23px;
-
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 500;
@@ -739,15 +724,12 @@ input::placeholder {
 .turn_on {
   margin-top: 16px;
   margin-left: 26px;
-  width: 310px;
-  height: 80px;
   font-family: 'Gilroy';
   font-style: italic;
   font-weight: 500;
   font-size: 24px;
   line-height: 26px;
   color: #FFFFFF;
-
 }
 
 .position {
@@ -886,61 +868,67 @@ input::placeholder {
   padding-top: 15%;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 992px){
-  .logo{
-    width: 100%;
-    position: center;
-    text-align: center;
-  }
-  .buttom_login{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5%;
-  }
-  .buttom_zapys{
-    width: 90%;
-    text-align: center;
-  }
-  .btn_more{
-    width: 100%;
-  }
-}
+/*@media only screen and (min-width: 300px) and (max-width: 992px){*/
+/*  .logo{*/
+/*    width: 100%;*/
+/*    position: center;*/
+/*    text-align: center;*/
+/*  }*/
+/*  .buttom_login{*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    margin-bottom: 5%;*/
+/*  }*/
+/*  .buttom_zapys{*/
+/*    width: 90%;*/
+/*    text-align: center;*/
+/*  }*/
+/*  .btn_more{*/
+/*    width: 100%;*/
+/*  }*/
+/*}*/
 
-@media screen and (max-width: 576px){
-  .bot_menu{
-    position: relative;
-  }
-  .socials_bot{
-    position: absolute;
-    top: 1px;
-    right: 0px;
-  }
-}
+/*@media screen and (max-width: 576px){*/
+/*  .bot_menu{*/
+/*    position: relative;*/
+/*  }*/
+/*  .socials_bot{*/
+/*    position: absolute;*/
+/*    top: 1px;*/
+/*    right: 0px;*/
+/*  }*/
+/*}*/
 
-@media screen and (min-width: 992px){
-  .socials_bot{
-    position: absolute;
-    right: 47px;
-  }
-}
+/*@media screen and (min-width: 992px){*/
+/*  .socials_bot{*/
+/*    position: absolute;*/
+/*    right: 47px;*/
+/*  }*/
+/*}*/
 
-@media only screen and (min-width: 0px) and (max-width: 576px){
-  .btn_price{
-    width: 90%;
-    text-align: center;
-    margin-top: 5%;
-  }
-  .banner_left {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .directions{
-    padding-left: 5%;
-  }
-  .big_title_left{
-    font-size: 37px;
-  }
-  .big_title_text{
-    font-size: 44px;
-  }
-}
+/*@media only screen and (min-width: 0px) and (max-width: 576px){*/
+/*  .btn_price{*/
+/*    width: 90%;*/
+/*    text-align: center;*/
+/*    margin-top: 5%;*/
+/*  }*/
+/*  .banner_left {*/
+/*    margin-left: 5%;*/
+/*    margin-right: 5%;*/
+/*  }*/
+/*  .directions{*/
+/*    padding-left: 5%;*/
+/*  }*/
+/*  .big_title_left{*/
+/*    font-size: 37px;*/
+/*  }*/
+/*  .big_title_text{*/
+/*    font-size: 44px;*/
+/*  }*/
+/*  .benefits_item{*/
+/*    font-size: 13px;*/
+/*  }*/
+/*  .doctor{*/
+/*    margin-left: 10%;*/
+/*  }*/
+/*}*/

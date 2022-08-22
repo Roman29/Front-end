@@ -1,20 +1,189 @@
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 0px) and  (max-width: 575px){
   .play {
-    top: 20%;
+    top: 10%;
     left: 25%;
     margin: 25% auto;
   }
+  .logo{
+    width: 100%;
+    position: center;
+    text-align: center;
+  }
+  .buttom_login{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .buttom_zapys{
+    width: 90%;
+    text-align: center;
+  }
+  .btn_more{
+    width: 100%;
+    margin-bottom: 5%;
+
+  }
+  .bot_menu{
+    position: relative;
+  }
+  .socials_bot{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+  }
+  .btn_price{
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .btn_see_all{
+    width: 100%;
+  }
+  .banner_left {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .directions{
+    padding-left: 5%;
+  }
+  .big_title_left{
+    font-size: 37px;
+  }
+  .big_title_text{
+    font-size: 44px;
+  }
+  .benefits_item{
+    font-size: 13px;
+  }
+  .doctor{
+    margin-left: 10%;
+  }
+  .banner_image {
+    background-image: url('../img/banner_sm.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
 }
 @media (min-width: 576px) and  (max-width: 767px){
+  .logo{
+    width: 100%;
+    position: center;
+    text-align: center;
+  }
+  .buttom_login{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .buttom_zapys{
+    width: 90%;
+    text-align: center;
+  }
+  .btn_more{
+    width: 100%;
+    margin-bottom: 5%;
 
+  }
+  .bot_menu{
+    position: relative;
+  }
+  .socials_bot{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+  }
+  .banner_image {
+    background-image: url('../img/banner_sm.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  .btn_price{
+    width: 90%;
+    text-align: center;
+  }
+  .banner_left {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .directions{
+    padding-left: 5%;
+  }
+  .big_title_left{
+    font-size: 37px;
+  }
+  .big_title_text{
+    font-size: 44px;
+  }
+  .benefits_item{
+    font-size: 13px;
+  }
+  .doctor{
+    margin-left: 10%;
+  }
+  .btn_see_all{
+    width: 100%;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (min-width: 768px) and (max-width: 991px){
+  .logo{
+    width: 100%;
+    position: center;
+    text-align: center;
+  }
+  .buttom_login{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .buttom_zapys{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 0px;
+  }
+
+  .btn_zapys{
+    font-size: 85%;
+  }
+  .btn_price{
+    width: 90%;
+    text-align: center;
+  }
+  .btn_more{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .btn_see_all{
+    width: 100%;
+  }
+  .socials_bot{
+    position: absolute;
+    right: 47px;
+  }
+  .big_title_left{
+    font-size: 40px;
+  }
+  .benefits_item{
+    font-size: 13px;
+  }
+}
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  }
+@media (min-width: 992px) and (max-width: 1199px){
+  .socials_bot{
+    position: absolute;
+    right: 47px;
+  }
+}
 
  /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }
