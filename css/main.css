@@ -25,12 +25,10 @@ li {
 
 
 
-.dropbtn{
-  color: #F7F8F9;
+.dropdown-toggle{
   border: none;
   cursor: pointer;
   background: #FFFFFF;
-  align-items: center;
 }
 
 .phone {
@@ -300,15 +298,26 @@ hr {
 
 }
 
-.directions_box {
-  margin-right: 20px;
-  margin-bottom: 20px;
+/*.directions_box {*/
+/*  margin-right: 20px;*/
+/*  margin-bottom: 20px;*/
+/*  width: 295px;*/
+/*  height: 279px;*/
+/*  left: 80px;*/
+/*  top: 1654px;*/
+/*}*/
+.clinik-item{
   width: 295px;
   height: 279px;
-  left: 80px;
-  top: 1654px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 30px 32px;
+  margin-bottom: 20px;
 }
-
+.clinik-item-title{
+  margin-top: 24px;
+  margin-bottom: 35px;
+}
 .btn_see_all {
 
   box-sizing: border-box;
