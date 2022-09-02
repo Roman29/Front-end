@@ -216,7 +216,7 @@ hr {
 .block_title {
 
   text-align: center!important;
-
+  margin-bottom: 20px;
   margin-top: 93px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -480,9 +480,11 @@ input::placeholder {
   line-height: 50px;
   letter-spacing: -0.035em;
   color: #000000;
+  margin-bottom: 15px;
 }
 
 .text_info_sm{
+  margin-top: 15px;
   left: 80px;
   top: 3357px;
   font-family: 'Gilroy';
